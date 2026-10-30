@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and virtual environments
+.pytest_cache/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+*.log
+
+# Sensitive User Uploads and Document Images (Prevents leaking student IDs, photos, or PII)
+samples/*
+!samples/.gitkeep
+!samples/sample_student_id.jpg
+
+# Operating System and IDE Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
